@@ -61,4 +61,17 @@ npm start
 ## 项目大概
 #### 前台首页
 ![](/book/images/1508291808(1).png)
+#### 文章详情
+![](/book/images/1508291844(1).png)
+#### 后台首页
+![](/book/images/1508291870(1).png)
+#### 文章管理
+![](/book/images/1508291881(1).png)
+#### 文章添加
+![](/book/images/1508291889(1).png)
+#### 文章修改
+![](/book/images/1508291905(1).png)
+#### 文章删除
+![](/book/images/1508291933(1).png)
+
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
