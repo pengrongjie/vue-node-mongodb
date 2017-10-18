@@ -1,6 +1,7 @@
 # 全栈第一步
 
 > vue(全家桶)+node(express)+mongodb(mongoose)+阿里云(cenOS)部署+域名上线，前后端分离博客
+
 > [线上访问](http://pengrongjie.com/)
 ## 分开2个终端运行
 ```
