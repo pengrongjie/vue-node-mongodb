@@ -58,4 +58,7 @@ npm start
 找到 mongoose.connect('mongodb://localhost:27017/test93');
 把**test93** 修改成你自己喜欢的数据库名字
 ```
+## 项目大概
+#### 前台首页
+![](/book/images/1508291808(1).png)
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
