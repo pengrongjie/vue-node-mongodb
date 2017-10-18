@@ -88,6 +88,7 @@ winSCP shell
 
 #### shell操作已经部署在阿里云上的mongodb
 winSCP,找到**mongodb**的安装目录
+
 ![](/book/images/bVWLtj.png)
 
 shell操作**mongodb**,与windows相比，只是启动的方式由**mongo**变成 ./mongo
@@ -108,6 +109,5 @@ pm2 stop ./bin/www 停止
 pm2 stop 1 停止(序号)
 ```
 ![](/book/images/2153441650-59ded703b226d_articlex.png)
-2153441650-59ded703b226d_articlex.png
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
