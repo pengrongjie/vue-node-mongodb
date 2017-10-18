@@ -39,7 +39,11 @@ npm start
 ```
 vue-node-mongodb/server
 ```
-vue-node-mongodb/server/app.js 中 **app.use(express.static(path.join(__dirname, 'public')))** 后面加上，以下代码
+cd vue-node-mongodb/server/app.js 
+```
+app.use(express.static(path.join(__dirname, 'public')))
+后面加上，以下代码
+```
 ```
 app.use(express.static(path.join(__dirname,'dist')));
 ```
