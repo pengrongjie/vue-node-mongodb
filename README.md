@@ -3,6 +3,11 @@
 > vue(全家桶)+node(express)+mongodb(mongoose)+阿里云(cenOS)部署+域名上线，前后端分离博客
 
 > [线上访问](http://pengrongjie.com/)
+
+1. 开发阶段
+2. 阿里云部署
+
+# 开发阶段
 ## 分开2个终端运行
 ```
 git clone https://github.com/pengrongjie/vue-node-mongodb.git
@@ -74,7 +79,7 @@ npm start
 #### 文章删除
 ![](/book/images/1508291933(1).png)
 
-## 阿里云部署
+# 阿里云部署
 #### 帮助工具
 winSCP shell
 #### 参考文献
