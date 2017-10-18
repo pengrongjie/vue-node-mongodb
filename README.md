@@ -50,4 +50,11 @@ app.use(express.static(path.join(__dirname,'dist')));
 # serve with hot reload at localhost:80
 npm start
 ```
+## 提醒
+数据库名字更改
+``` bash
+# cd vue-node-mongodb/server/data/module.js
+找到 mongoose.connect('mongodb://localhost:27017/test93');
+把**test93** 修改成你自己喜欢的数据库名字
+```
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
