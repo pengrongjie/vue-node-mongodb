@@ -41,8 +41,7 @@ vue-node-mongodb/server
 ```
 cd vue-node-mongodb/server/app.js 
 ```
-app.use(express.static(path.join(__dirname, 'public')))
-后面加上，以下代码
+找到 app.use(express.static(path.join(__dirname, 'public'))) 在后面加上，以下代码
 ```
 ```
 app.use(express.static(path.join(__dirname,'dist')));
