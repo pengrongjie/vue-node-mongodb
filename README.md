@@ -79,13 +79,17 @@ npm start
 winSCP shell
 #### 参考文献
 [部署Node.js项目（CentOS)](https://help.aliyun.com/document_detail/50775.html)
+
 [把nodejs项目部署到阿里云](http://blog.csdn.net/chenlinIT/article/details/73343793)
+
 #### 阿里云ECS(cenOS),默认端口为80
 通过ECS实例-->安全组-->入口方向添加常见的**8080,3000**端口
 ![](/book/images/bVWsa1.png)
+
 #### shell操作已经部署在阿里云上的mongodb
 winSCP,找到**mongodb**的安装目录
 ![](/book/images/bVWLtj.png)
+
 shell操作**mongodb**,与windows相比，只是启动的方式由**mongo**变成 ./mongo
 ```
 cd 目录
