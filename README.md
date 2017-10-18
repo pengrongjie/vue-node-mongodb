@@ -54,6 +54,7 @@ npm start
 数据库名字更改
 ``` bash
 # cd vue-node-mongodb/server/data/module.js
+
 找到 mongoose.connect('mongodb://localhost:27017/test93');
 把**test93** 修改成你自己喜欢的数据库名字
 ```
