@@ -61,7 +61,7 @@ npm start
 # cd vue-node-mongodb/server/data/module.js
 
 找到 mongoose.connect('mongodb://localhost:27017/test93');
-把**test93** 修改成你自己喜欢的数据库名字
+把 test93 修改成你自己喜欢的数据库名字
 ```
 ## 项目大概
 #### 前台首页
@@ -88,15 +88,19 @@ winSCP shell
 [把nodejs项目部署到阿里云](http://blog.csdn.net/chenlinIT/article/details/73343793)
 
 #### 阿里云ECS(cenOS),默认端口为80
+> 例如我的域名为www.pengrongjie.com,
+> 我阿里云ECS的公网ip为120.78.78.249
+> 默认情况下访问 www.pengrongjie.com ，相当于访问 120.78.78.249:80
 通过ECS实例-->安全组-->入口方向添加常见的**8080,3000**端口
+
 ![](/book/images/bVWsa1.png)
 
 #### shell操作已经部署在阿里云上的mongodb
-winSCP,找到**mongodb**的安装目录
+1. winSCP,找到**mongodb**的安装目录
 
 ![](/book/images/bVWLtj.png)
 
-shell操作**mongodb**,与windows相比，只是启动的方式由**mongo**变成 ./mongo
+2. shell操作**mongodb**,与windows相比，只是启动的方式由**mongo**变成 ./mongo
 ```
 cd 目录
 ./mongo
