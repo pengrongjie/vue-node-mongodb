@@ -89,8 +89,11 @@ winSCP shell
 
 #### 阿里云ECS(cenOS),默认端口为80
 > 例如我的域名为www.pengrongjie.com,
+
 > 我阿里云ECS的公网ip为120.78.78.249
+
 > 默认情况下访问 www.pengrongjie.com ，相当于访问 120.78.78.249:80
+
 通过ECS实例-->安全组-->入口方向添加常见的**8080,3000**端口
 
 ![](/book/images/bVWsa1.png)
