@@ -2,10 +2,13 @@
 
 > vue(全家桶)+node(express)+mongodb(mongoose)+阿里云(cenOS)部署+域名上线，前后端分离博客
 
-> [http://pengrongjie.com/](http://pengrongjie.com/)
+> [http://pengrongjie.com/](http://pengrongjie.com/) （请使用PC打开，并不是一个移动端项目）
 1. 项目介绍
 2. 开发阶段
 3. 阿里云部署
+#### 说明
+如果对您有帮助，您可以点右上角 "Star" 支持一下 十分感谢!
+如有问题请直接在 Issues 中提，或者您发现问题并有非常好的解决方案，欢迎指教
 # 项目介绍
 ## 技术栈
 vue2 + vue-router + webpack + ES6 + axios + less + flex + cookie + exprss + mongoDB + 阿里云(cenOS)
