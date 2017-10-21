@@ -2,57 +2,79 @@
 
 > vue(全家桶)+node(express)+mongodb(mongoose)+阿里云(cenOS)部署+域名上线，前后端分离博客
 
-> [线上访问](http://pengrongjie.com/)
-
-1. 开发阶段
-2. 阿里云部署
+> [http://pengrongjie.com/](http://pengrongjie.com/)
+1. 项目介绍
+2. 开发阶段
+3. 阿里云部署
+# 项目介绍
+## 技术栈
+vue2 + vue-router + webpack + ES6 + axios + less + flex + cookie + exprss + mongoDB + 阿里云(cenOS)
+#### 已完成
+1. 前台部分
+- [x] 登录
+- [x] 注册
+- [x] 退出
+- [x] 登录后，点赞
+- [x] 登录后，取消点赞
+- [x] 登录后，评论
+- [x] 文章按分类查看
+- [x] 文章分页
+2. 后台部分
+- [x] 登录权限，管理员才能登录
+- [x] 用户管理
+- [x] 分类管理
+- [x] 文章管理
+- [x] 评论管理
+#### 待完善
+- [] 七牛云头像上传
+- [] socket.io在线聊天
+- [] 分页组件化
 
 # 开发阶段
 ## 分开2个终端运行
+克隆
 ```
 git clone https://github.com/pengrongjie/vue-node-mongodb.git
 ```
 #### Vue
 ``` bash
-# install dependencies
+# 安装依赖
 cd vue-node-mongodb
 cnpm install
 
-# serve with hot reload at localhost:8080
+# 打开浏览器运行 localhost:8080
 npm run dev
 
-# build for production with minification
+# 打包
 npm run build
 
-# build for production and view the bundle analyzer report
-npm run build --report
 ```
 打包后生成**dist**文件夹
 #### Node
 ``` bash
-# install dependencies
+# 安装依赖
 cd vue-node-mongodb/server
 cnpm install
 
-# serve with hot reload at localhost:80
+# 打开浏览器运行 localhost:80
 npm start
 ```
 此时，只要打开2个终端运行，就可以正常访问了
 
-## 打包一个终端运行
+## 打包后，只需要运行一个终端
 把打包后生成的**dist**文件夹,复制到
 ```
 vue-node-mongodb/server
 ```
 cd vue-node-mongodb/server/app.js 
-```
-找到 app.use(express.static(path.join(__dirname, 'public'))) 在后面加上，以下代码
-```
+
+找到 `app.use(express.static(path.join(__dirname, 'public')))` 在后面加上，以下代码
+
 ```
 app.use(express.static(path.join(__dirname,'dist')));
 ```
 ```
-# serve with hot reload at localhost:80
+# 打开浏览器运行 localhost:80
 npm start
 ```
 ## 提醒
@@ -68,8 +90,6 @@ npm start
 ![](/book/images/1508291808(1).png)
 #### 文章详情
 ![](/book/images/1508291844(1).png)
-#### 后台首页
-![](/book/images/1508291870(1).png)
 #### 文章管理
 ![](/book/images/1508291881(1).png)
 #### 文章添加
