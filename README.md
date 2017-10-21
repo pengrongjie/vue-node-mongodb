@@ -11,7 +11,7 @@
 
 如有问题请直接在 Issues 中提，或者您发现问题并有非常好的解决方案，欢迎指教
 
-**想要进行后台的朋友，可以私聊我，提供管理员账号**
+**想要进入后台的朋友，可以私聊我，提供管理员账号**
 # 项目介绍
 ## 技术栈
 vue2 + vue-router + webpack + ES6 + axios + less + flex + cookie + exprss + mongoDB + 阿里云(cenOS)
@@ -147,5 +147,3 @@ pm2 stop ./bin/www 停止
 pm2 stop 1 停止(序号)
 ```
 ![](/book/images/2153441650-59ded703b226d_articlex.png)
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
