@@ -12,7 +12,9 @@
 如有问题请直接在 Issues 中提，或者您发现问题并有非常好的解决方案，欢迎指教 :punch:
 
 **想要进入后台的朋友，可以私聊我，提供管理员账号** :v:
+
 **另外想要换个环境开始新的工作，2年多前端，坐标广州东莞都可以，麻烦兄弟们帮帮忙，推荐一下，十分感谢!** :smile::smile::smile:
+
 # 项目介绍
 ## 技术栈
 vue2 + vue-router + webpack + ES6 + axios + less + flex + cookie + exprss + mongoDB + 阿里云(cenOS)
