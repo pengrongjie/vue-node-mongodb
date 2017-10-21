@@ -100,7 +100,7 @@ npm start
 ![](/book/images/1508291933(1).png)
 
 # 阿里云部署
-#### 帮助工具
+#### 辅助工具
 winSCP shell
 #### 参考文献
 [部署Node.js项目（CentOS)](https://help.aliyun.com/document_detail/50775.html)
