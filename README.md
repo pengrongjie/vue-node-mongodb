@@ -26,9 +26,9 @@ vue2 + vue-router + webpack + ES6 + axios + less + flex + cookie + exprss + mong
 - [x] 文章管理
 - [x] 评论管理
 #### 待完善
-- [] 七牛云头像上传
-- [] socket.io在线聊天
-- [] 分页组件化
+- [ ] 七牛云头像上传
+- [ ] socket.io在线聊天
+- [ ] 分页组件化
 
 # 开发阶段
 ## 分开2个终端运行
