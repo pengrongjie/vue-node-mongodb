@@ -14,7 +14,7 @@
 **想要进入后台的朋友，可以私聊我，提供管理员账号** :v:
 
 **另外想换个环境开始新的工作，2年多前端，坐标广州东莞都可以，麻烦兄弟们帮帮忙，推荐一下，十分感谢!** :smile::smile::smile:
-
+[我的简历](https://github.com/pengrongjie/my-resume)
 # 项目介绍
 ## 技术栈
 vue2 + vue-router + webpack + ES6 + axios + less + flex + cookie + exprss + mongoDB + 阿里云(cenOS)
